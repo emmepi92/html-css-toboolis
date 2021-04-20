@@ -91,6 +91,10 @@ hr {
     border-top: #eee    ;
 }
 
+.todolist-container {
+    padding-top: 15px;
+}
+
 .todolist-box {
     margin: 20px;
     padding-left: 22px;
