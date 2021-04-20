@@ -60,3 +60,19 @@ html {
 hr {
     border-top: #eee    ;
 }
+
+.todolist, .todolist2 {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.todolist {
+    padding: 40px;
+
+}
+
+.todolist2 {
+    padding-bottom: 20px;
+
+}
+
