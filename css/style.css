@@ -13,7 +13,7 @@ html {
     width: 22px;
     height: 22px;
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 3px;
     font-size: 0.65em;
     font-weight: 900;
     margin-right: 10px;
@@ -57,7 +57,7 @@ html {
 }
 
 .container {
-    background-color: #eee;
+    background-color: rgb(246, 248, 249);
     padding: 20px;
 }
 
@@ -75,7 +75,7 @@ html {
 
 .buttons {
     display: inline-block;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     padding: 8px;
     margin: 5px;
     border-radius: 6px;
