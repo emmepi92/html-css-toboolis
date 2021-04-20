@@ -10,10 +10,13 @@ html {
 
 .check-box {
     border-radius: 25px;
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
     display: inline-block;
-    padding: 0 5px
+    padding: 0 5px;
+    font-size: 0.65em;
+    font-weight: 900;
+    margin-right: 10px;
 }
 
 .checked {
@@ -88,20 +91,21 @@ hr {
     border-top: #eee    ;
 }
 
-.todolist {
-    list-style-type: none;
-    margin: 5px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
 .todolist-box {
     margin: 20px;
     padding-left: 22px;
 }
 
+.todolist {
+    list-style-type: none;
+    margin: 5px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+
 li {
-    padding:10px;
+    padding:10px 0;
 }
 
 .tag-blue {
