@@ -29,12 +29,34 @@ html {
 .container {
     background-color: #eee;
     padding: 20px;
-
 }
 
 .container-page {
     width: 80%;
     margin: 50px auto;
     background-color: #fff;
+    border-radius: 10px;
 }
 
+.container-buttons {
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.buttons {
+    display: inline-block;
+    border: 2px solid #ccc;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 6px;
+    color: #ccc;
+}
+
+.blue-buttons {
+    color: #ffffff;
+    background-color: #79c3ff;
+}
+
+hr {
+    border-top: #eee    ;
+}
