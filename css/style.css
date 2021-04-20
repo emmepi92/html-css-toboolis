@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-container {
+    margin: 20px 40px;
+}
+
+.logo-image {
+ width: 65px;
+ vertical-align: bottom;
+}
+
+.logo-name {
+    display: inline-block;
+}
+
+.logo-name h1 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.container {
+    background-color: #eee;
+    padding: 20px;
+
+}
+
+.container-page {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
