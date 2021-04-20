@@ -8,6 +8,33 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.check-box {
+    border-radius: 25px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    padding: 0 5px
+}
+
+.checked {
+    color: #008000;
+    border: 1px solid #008000;
+}
+
+.unchecked {
+    color: #ff0000;
+    border: 1px solid #f00;
+}
+
+.tag-base {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
+
 .logo-container {
     margin: 20px 40px;
 }
@@ -32,7 +59,7 @@ html {
 }
 
 .container-page {
-    width: 80%;
+    width: 75%;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 10px;
@@ -61,18 +88,43 @@ hr {
     border-top: #eee    ;
 }
 
-.todolist, .todolist2 {
+.todolist {
     list-style-type: none;
     margin: 5px;
-}
-
-.todolist {
-    padding: 40px;
-
-}
-
-.todolist2 {
     padding-bottom: 20px;
-
+    font-size: 20px;
 }
+
+.todolist-box {
+    margin: 20px;
+}
+
+li {
+    padding:10px;
+}
+
+.tag-blue {
+    background-color: rgb(135, 181, 250);
+}
+
+.tag-violet {
+    background-color: violet;
+}
+
+.tag-green {
+    background-color:green;
+}
+
+.tag-orange {
+    background-color: orangered;
+}
+
+.tag-pink {
+    background-color: orchid;
+}
+
+.tag-yellow {
+    background-color: yellowgreen;
+}
+
 
