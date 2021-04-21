@@ -44,16 +44,16 @@ html {
 
 .logo-image {
     width: 65px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .logo-name {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .logo-name h1 {
     font-size: 50px;
-    line-height: 65px;
 }
 
 .container {
