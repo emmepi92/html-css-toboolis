@@ -8,26 +8,34 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.check-box {
-    border-radius: 25px;
-    width: 22px;
-    height: 22px;
-    display: inline-block;
-    padding: 0 3px;
+li::before {
+    border-radius: 50%;      
     font-size: 0.65em;
     font-weight: 900;
-    margin-right: 10px;
-}
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+    
+  }
 
-.checked {
+
+li.checked::before {
+    content: "\2714";
     color: #008000;
     border: 1px solid #008000;
+    padding: 0 0 0 3px;
 }
 
-.unchecked {
+
+li.unchecked::before {
+    content: "\2716";
     color: #ff0000;
     border: 1px solid #f00;
+    padding: 0 0 0 3px;
 }
+
+
 
 .tag-base {
     display: inline-block;
